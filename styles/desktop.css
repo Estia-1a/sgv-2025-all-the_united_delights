@@ -1,5 +1,25 @@
-.container{
-    display: flex;
-    flex-wrap: wrap;
+table,th,td{
+    border: 0px solid black;
+    vertical-align: middle;
+}
 
+img{
+    float:left
+}
+
+.slogan{
+    text-align: left;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr{
+    background-color: black;
+    height: 3px;
+}
+
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
