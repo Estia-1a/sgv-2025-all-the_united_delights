@@ -32,13 +32,11 @@ hr{
     background-color: black;
     height: 3px;
 }
-.map{
-    float: left;
-}
 
 .Filtres{
     float: inline-start;
     text-align: left;
+    width: 67%;
     
 }
 
@@ -52,10 +50,10 @@ hr{
 }
 
 .subbare{
-    display: flex;
-    background-color: black;
+    width: 30%;
     height: 3px;
-    width:fit-content
+
+
 }
 #map {
     height: 400px;
