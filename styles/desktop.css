@@ -50,3 +50,10 @@ hr{
 .table100{
     width: 100%;
 }
+
+.subbare{
+    display: flex;
+    background-color: black;
+    height: 3px;
+    width:fit-content
+}
