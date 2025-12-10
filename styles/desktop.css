@@ -4,12 +4,18 @@ body{
 
 
 table,th,td{
-    border: 0px solid black;
+    border: 1px solid black;
     vertical-align: middle;
 }
 
-.table100{
+.carte{
     width: 100%;
+}
+
+.menu{
+    border: 1px grey;
+    width: 100%;
+    text-align: center;
 }
 
 img{
@@ -26,9 +32,25 @@ hr{
     background-color: black;
     height: 3px;
 }
+.map{
+    float: left;
+}
+
+.Filtres{
+    display: flex;
+    text-align: left;
+    
+}
 
 .margin{
     margin-left: 20px;
     margin-right: 20px;
-    
+}
+
+.table100{
+    width: 100%;
+}
+
+.cases{
+    height: 5%;
 }
