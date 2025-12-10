@@ -37,7 +37,7 @@ hr{
 }
 
 .Filtres{
-    display: flex;
+    float: inline-start;
     text-align: left;
     
 }
@@ -49,8 +49,4 @@ hr{
 
 .table100{
     width: 100%;
-}
-
-.cases{
-    height: 5%;
 }
