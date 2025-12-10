@@ -57,3 +57,7 @@ hr{
     height: 3px;
     width:fit-content
 }
+#map {
+    height: 400px;
+    width: 100%;
+}
