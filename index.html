@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="Styles/desktop.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
         <title>Choix trajet</title>
     </head>
 
@@ -28,7 +30,7 @@
 
             <table class="carte">
                 <tr>
-                    <th width="33%"><img src="./media/pictures/Interactive-Google-Maps.png" class="map" alt="Google maps" height="400" title="Map"></th>
+                    <th width="33%"><div id ='map'></div></th>
                     <th class="Filtres" ><p><h2>Filtres</h2>
                         &#9634 horaire</p></th>
                 </tr>
@@ -41,6 +43,22 @@
                     <th style="background-color: gray;">dd</th>
                 </tr>
             </table></div>
+            <script>
+            // Initialiser la carte et la centrer sur une position (ex : Paris)
+            var map = L.map('map').setView([43.445773, -1.551422], 15);
+
+            // Ajouter le fond de carte OpenStreetMap
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '© OpenStreetMap'
+            }).addTo(map);
+
+            // Ajouter un marqueur (ex : Paris)
+            L.marker([43.445773, -1.551422])
+            .addTo(map)
+            .bindPopup('Bienvenue à ESTIA')
+            .openPopup();
+            </script>
     
     </body>
 
