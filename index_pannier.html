@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/desktop_pannier.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <title>Document</title>
 </head>
+
+
+<header class="main-header">
+
+    <div class="header-left">
+        <div class="logo">
+            <img src="./media/pictures/CovoitIOLogo.jpg" height="50">
+        </div>
+    </div>
+
+    <nav class="menu-center">
+        <a href="index.html" class="nav-item">🚗 Voyager</a>
+        <a href="index_pannier.html" class="nav-item">📍 Mes trajets</a>
+        <a href="index_pannier.html" class="nav-item">👤 Compte</a>
+    </nav>
+
+    <div class="header-right">
+        <a href="#" class="nav-item active">🛒 Panier</a>
+    </div>
+
+</header>
 <body>
-    
+    <div id = "map"></div>
+    <script>
+// Initialiser la carte et la centrer sur une position (ex : Paris)
+var map = L.map('map').setView([43.445773, -1.551422], 15);
+
+// Ajouter le fond de carte OpenStreetMap
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© OpenStreetMap'
+}).addTo(map);
+
+// Ajouter un marqueur (ex : Paris)
+L.marker([43.445773, -1.551422])
+  .addTo(map)
+  .bindPopup('Bienvenue à ESTIA')
+  .openPopup();
+</script>
+
 </body>
 </html>
