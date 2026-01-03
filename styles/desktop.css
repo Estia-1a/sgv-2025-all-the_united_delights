@@ -9,7 +9,15 @@ table,th,td{
 }
 
 .carte{
-    width: 100%;
+    float: left;
+    width:33%
+}
+
+.filtres{
+    float: left;
+    width: 40%;
+    float: inline-start;
+    text-align: left;
 }
 
 .menu{
@@ -36,7 +44,7 @@ hr{
 .Filtres{
     float: inline-start;
     text-align: left;
-    width: 67%;
+
     
 }
 
