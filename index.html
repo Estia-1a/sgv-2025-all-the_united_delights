@@ -13,7 +13,7 @@
     <body>
             <table class="table100">
                 <tr>
-                    <th width="20%"><img src="./media/pictures/CovoitIOLogo.jpg" alt="logo with a cute car" height="100" title="Cute car logo"></th>
+                    <th><img src="./media/pictures/CovoitIOLogo.jpg" alt="logo with a cute car" height="100" title="Cute car logo"></th>
                     <th class="slogan"><h2><b>Pour arriver en cours<br>sans retard ni dépenses excessives</b></h2></th>
                     <th><p>profil</p></th>
                 </tr>
@@ -30,17 +30,14 @@
 
             <table class="carte">
                 <tr>
-                    <th width="33%"><div id ='map'></div></th>
-                    <th class="Filtres"><p><h2>Filtres</h2>
-                        &#9634 horaire</p></th>
-                    <hr>   
-                </tr>
-                <tr>
-                    <th>blo</th>
+                    <th><div id ='map'></div></th>
                 </tr>
               
             </table>
-            <br>
+            <table class="filtres">
+                    <th><p><h2>Filtres</h2>&#9634 horaire</p></th>
+            </table>
+        <hr>
             <div class="margin"><table class="table100">
                 <tr>
                     <th style="background-color: gray;">dd</th>
@@ -48,6 +45,8 @@
                     <th style="background-color: gray;">dd</th>
                 </tr>
             </table></div>
+
+
             <script>
             // Initialiser la carte et la centrer sur une position (ex : Paris)
             var map = L.map('map').setView([43.445773, -1.551422], 15);
