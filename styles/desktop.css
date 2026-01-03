@@ -13,11 +13,19 @@ table,th,td{
     width:33%
 }
 
+.slogan{
+    font-size:larger;
+}
+
 .filtres{
     float: left;
     width: 40%;
     float: inline-start;
     text-align: left;
+}
+
+.gf{
+    font-size: x-large;
 }
 
 .menu{
@@ -66,4 +74,8 @@ hr{
 #map {
     height: 400px;
     width: 100%;
+}
+
+.pannier{
+    width:27%;
 }
