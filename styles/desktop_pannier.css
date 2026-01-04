@@ -3,6 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+table,th,td{
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
 .main-header {
     display: grid;
     grid-template-columns: 150px 1fr 150px; 
@@ -60,4 +65,24 @@ body {
 #map {
     height: 100vh;
     width: 40%;
+}
+
+.trajet{
+    float: right;
+    width: 60%;
+    background-color: grey;
+}
+
+.fiche{
+    float: right;
+    width: 60%;
+    text-align: left;
+    height: 700px;
+}
+
+.demande{
+    background-color: gray;
+    width: 60%;
+    float: right;
+    height: 100px;
 }
