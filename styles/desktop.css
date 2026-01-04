@@ -1,5 +1,5 @@
 table,th,td{
-    border: 1px solid black;
+    border: 0px solid black;
     vertical-align: middle;
 }
 
@@ -86,8 +86,39 @@ hr{
 }
 
 .im1{
-    background-image: url("../media/pictures/mooiste-bezienswaardigheden-in-bayonne_28569_xl.jpg");
+    background-image: url("../media/pictures/trip1.png");
     background-size: cover;
     background-color: transparent;
     background-position: center;
+}
+
+.im2{
+    background-image: url("../media/pictures/trip\ 2.jpg");
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+}
+
+.im3{
+    background-image: url("../media/pictures/trip\ 3.jpg");
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+}
+
+.espace{
+    width: 100%;
+}
+
+.Rechercher{
+    width: 67%;
+    background-color: gray;
+    height: 75px;
+
+}
+
+.plus{
+    width: 100%;
+    height:50px;
+    background-color: grey;
 }
